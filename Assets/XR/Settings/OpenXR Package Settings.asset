@@ -344,6 +344,7 @@ MonoBehaviour:
   - {fileID: -6825844423323016478}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &5634391988609504583
 MonoBehaviour:
   m_ObjectHideFlags: 0

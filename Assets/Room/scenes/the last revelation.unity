@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -183,12 +183,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14999830}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1460368419}
+  m_Father: {fileID: 1325664560}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &14999832
 SortingGroup:
@@ -552,7 +552,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.08
-  m_Center: {x: -47.196144, y: 1.0424001, z: 26.02917}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &14999838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +714,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a07965ddc03ec0246a2ed2961c7d9e9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259078028}
   m_SourcePrefab: {fileID: 100100000, guid: a07965ddc03ec0246a2ed2961c7d9e9f, type: 3}
 --- !u!1001 &116685650
 PrefabInstance:
@@ -2741,12 +2744,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962349512}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1460368419}
+  m_Father: {fileID: 1325664560}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &962349514
 MonoBehaviour:
@@ -3153,7 +3156,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.08
-  m_Center: {x: -47.196144, y: 1.0424001, z: 26.02917}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &962349521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4236,6 +4239,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252060878}
   m_Mesh: {fileID: 6349497404779363362, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
+--- !u!1 &1259078024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a07965ddc03ec0246a2ed2961c7d9e9f, type: 3}
+  m_PrefabInstance: {fileID: 65449474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1259078028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259078024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9999999, y: 0, z: 5.99842}
+  m_Center: {x: -0.99999994, y: 0, z: 2.99921}
 --- !u!1001 &1275216886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4365,7 +4394,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1325664556}
   m_CameraFloorOffsetObject: {fileID: 1460368418}
   m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.1176
+  m_CameraYOffset: 1.6
 --- !u!4 &1325664560
 Transform:
   m_ObjectHideFlags: 0
@@ -4374,14 +4403,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325664556}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6751247, z: -0, w: 0.7377037}
-  m_LocalPosition: {x: 30.1, y: -2.16, z: 45.21}
+  m_LocalRotation: {x: -0, y: -0.70639324, z: -0, w: 0.7078196}
+  m_LocalPosition: {x: 28.4, y: -2.16, z: 44.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1460368419}
+  - {fileID: 962349513}
+  - {fileID: 14999831}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -84.928, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -89.884, z: 0}
 --- !u!1 &1459518118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4609,13 +4640,11 @@ Transform:
   m_GameObject: {fileID: 1460368418}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1459518119}
-  - {fileID: 962349513}
-  - {fileID: 14999831}
   m_Father: {fileID: 1325664560}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515765311
@@ -5824,6 +5853,7 @@ GameObject:
   - component: {fileID: 2066874616}
   - component: {fileID: 2066874615}
   - component: {fileID: 2066874614}
+  - component: {fileID: 2066874620}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5869,7 +5899,19 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2066874620}
+        m_TargetAssemblyTypeName: DebugInteractable, Assembly-CSharp
+        m_MethodName: DebugInteraction
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hover
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -5881,10 +5923,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2066874620}
+        m_TargetAssemblyTypeName: DebugInteractable, Assembly-CSharp
+        m_MethodName: DebugInteraction
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Select
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2066874620}
+        m_TargetAssemblyTypeName: DebugInteractable, Assembly-CSharp
+        m_MethodName: DebugInteraction
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Exit
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -6097,6 +6163,18 @@ Transform:
   - {fileID: 1331543}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &2066874620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066874613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0eba5cf979fec4ea9e26ab4b2bf56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2086508452
 PrefabInstance:
   m_ObjectHideFlags: 0
