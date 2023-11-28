@@ -3,7 +3,72 @@ guid: feedaccf8d321d745a40453a281e765e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Claraboia
+    second: {fileID: 2800000, guid: 7702363ad7160b84cb461f0092b90f02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2800000, guid: 1060a469db761ba4980c414b510a18dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Friso
+    second: {fileID: 2800000, guid: 8e60ebb29b1c1544082d66c8e79bbf71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orn_Base
+    second: {fileID: 2800000, guid: 8fc73fb2ee0fb5f4fbd41d0826288649, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orn_Porta
+    second: {fileID: 2800000, guid: 6f80f786fed2fbe4db8a47555bea6c20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orna_01
+    second: {fileID: 2800000, guid: aa8c2e5eb3cc52b4999b15257cce3413, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orna_02
+    second: {fileID: 2800000, guid: 956c030e7145f1848a8805e9f0c52da4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orna_03
+    second: {fileID: 2800000, guid: 6f4f53c4730dc7649910b4534db1c2b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orna_04
+    second: {fileID: 2800000, guid: cc687b323bcf4e14ea6436c698dd8179, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plaster_Texture
+    second: {fileID: 2800000, guid: 7339413ec5be9b943afb95b26dbe54b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seamless_Wood
+    second: {fileID: 2800000, guid: f6005373e8db89843956cb99ce7c933b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone-Texture
+    second: {fileID: 2800000, guid: 3b9705b8a9a0282449ddeec1ab7205ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Telhado
+    second: {fileID: 2800000, guid: f271622d9cd24d543b336f59c2effcfc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
