@@ -6,6 +6,7 @@ public class CodeCheck : MonoBehaviour
 {
     public string TargetCode;
     private string CurrentCode;
+    [SerializeField] private Animator myDoor = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,6 @@ public class CodeCheck : MonoBehaviour
 
     private void DoWhenCodeCorrect()
     {
-        Debug.Log("fuck");
+        myDoor.Play("DoorOpen", 0, 0.0f);
     }
 }
