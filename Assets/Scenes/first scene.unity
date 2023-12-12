@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.40221283, g: 0.34778965, b: 0.28113553, a: 1}
+  m_IndirectSpecularColor: {r: 0.40221283, g: 0.34778965, b: 0.28113547, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2007,32 +2007,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3240524871626806254, guid: 534053b397750e74588f25f926e8da72, type: 3}
   m_PrefabInstance: {fileID: 1318100014}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &590996559 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6638107236961293926, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
-  m_PrefabInstance: {fileID: 1043702022}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &590996563
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590996559}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.018285714, y: 0.010000001, z: 3.5527136e-17}
-  m_Center: {x: 0, y: 0, z: 0.000000007450581}
 --- !u!1 &601044825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3306,6 +3280,7 @@ PrefabInstance:
     - {fileID: -3483231724154146205, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
     - {fileID: 7869873546869171050, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
     - {fileID: -7029948723529949830, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
+    - {fileID: -6638107236961293926, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
       insertIndex: 39
@@ -3356,9 +3331,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6911152416152340509, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 637040529}
-    - targetCorrespondingSourceObject: {fileID: -6638107236961293926, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 590996563}
   m_SourcePrefab: {fileID: 100100000, guid: 9092ba5ce7229324aaa2dfc5a58dfec4, type: 3}
 --- !u!1 &1064670111
 GameObject:
