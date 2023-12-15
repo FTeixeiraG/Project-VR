@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1610,7 +1610,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.08
+  m_Radius: 0.06
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &176055011
 MonoBehaviour:
@@ -13809,7 +13809,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.08
+  m_Radius: 0.06
   m_Height: 2.2026248
   m_Direction: 1
   m_Center: {x: 0, y: 0.1013124, z: 0}
@@ -13867,7 +13867,7 @@ Transform:
   m_GameObject: {fileID: 1455016872}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70639324, z: -0, w: 0.7078196}
-  m_LocalPosition: {x: 16.93, y: 1.12, z: 4.57}
+  m_LocalPosition: {x: 16.93, y: 0.38, z: 4.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14071,7 +14071,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.08
+  m_Radius: 0.06
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1483252010
 MonoBehaviour:
