@@ -7,6 +7,9 @@ public class CodeCheck : MonoBehaviour
     public string TargetCode;
     private string CurrentCode;
     [SerializeField] private Animator myDoor = null;
+    public AudioSource source;
+    public AudioClip cliperror;
+    public AudioClip clipright;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +39,13 @@ public class CodeCheck : MonoBehaviour
     private void incorrectCode()
 	{
         Debug.Log("incorrect code");
+        source.PlayOneShot(cliperror);
 	}
 
 
     private void DoWhenCodeCorrect()
     {
         myDoor.Play("DoorOpen", 0, 0.0f);
+        source.PlayOneShot(clipright);
     }
 }
